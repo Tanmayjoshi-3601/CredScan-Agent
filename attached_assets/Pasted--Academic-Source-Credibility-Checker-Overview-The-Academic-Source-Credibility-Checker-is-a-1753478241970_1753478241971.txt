@@ -1,0 +1,211 @@
+# Academic Source Credibility Checker
+
+## Overview
+
+The **Academic Source Credibility Checker** is a multi-agent system built using **CrewAI** for orchestration. It accepts a research query, retrieves relevant web sources, summarizes their content using OpenAI GPT models, and ranks them based on credibility. The system provides **real-time execution updates** through an interactive UI, making the workflow transparent and engaging.
+
+## Key Features
+
+* **CrewAI-based Multi-Agent Orchestration**
+
+  * **Controller Agent**: Manages the workflow, delegates tasks to other agents, aggregates and formats results.
+  * **Research Agent**: Retrieves relevant URLs for the research topic.
+  * **Analysis Agent**: Summarizes content and evaluates credibility.
+* **Built-in Tools**
+
+  * Web Search Tool (DuckDuckGo or SerpAPI)
+  * Text Summarizer (OpenAI GPT API)
+  * Markdown/JSON Formatter for structured output
+* **Custom Tool**
+
+  * `credibility_scorer`: Assigns credibility scores based on domain authority (.edu/.gov high, .com lower) and generates reasoning for each ranking.
+* **Interactive Web UI**
+
+  * Displays real-time agent execution status (e.g., "Research Agent loading", "Analysis Agent summarizing")
+  * Shows final ranked results with titles, URLs, summaries, scores, and reasoning in a visually appealing layout.
+
+## Why It Stands Out
+
+Unlike generic research assistants, this system:
+
+1. **Evaluates quality and credibility** of retrieved sources.
+2. **Explains why each source is trustworthy or not.**
+3. Provides **real-time feedback on agent execution**, enhancing user experience.
+4. Uses **CrewAI for true multi-agent orchestration**, demonstrating advanced AI system design.
+
+## System Architecture
+
+```
+User Query → Controller Agent
+  → Research Agent → fetch URLs + snippets
+  → Analysis Agent → summarize content (OpenAI GPT) + score each URL
+  → Controller merges & outputs ranked list:
+       [Title, URL, Credibility Score, Reasoning, Summary]
+  → UI displays real-time agent execution + final results
+```
+
+### Agents & Responsibilities
+
+* **Controller Agent**
+
+  * Receives the query and orchestrates other agents sequentially.
+  * Handles error cases (e.g., no results found).
+  * Aggregates final ranked results for UI display.
+
+* **Research Agent**
+
+  * Uses web search tool (DuckDuckGo or SerpAPI) to fetch top 5 relevant URLs.
+  * Returns URLs + brief snippets.
+
+* **Analysis Agent**
+
+  * Uses OpenAI GPT API to summarize snippets.
+  * Invokes `credibility_scorer` to assign credibility scores and reasoning.
+  * Outputs structured JSON with rankings.
+
+## Custom Tool: Credibility Scorer
+
+* **Input**: URL string
+* **Output**: Dictionary with:
+
+  ```json
+  {
+    "score": float,
+    "reason": "Why this domain is credible or not"
+  }
+  ```
+* **Logic**:
+
+  * `.edu`, `.gov` → HIGH credibility (+3 points)
+  * `.org`, `.ac` → MEDIUM credibility (+2 points)
+  * `.com`, `.net` → LOW credibility (+1 point)
+  * Known low-quality domains (e.g., blogspot, medium) → VERY LOW (0.5 points)
+
+## Interactive UI
+
+* **Built with Streamlit or Gradio** for simplicity.
+* **Real-time updates**:
+
+  * Step 1: "Research Agent fetching URLs..."
+  * Step 2: "Analysis Agent summarizing content..."
+  * Step 3: "Credibility scoring in progress..."
+  * Step 4: Final ranked results displayed.
+* **Attractive visualization**:
+
+  * Ranked cards with title, URL, summary, score, and reasoning.
+  * Optional bar chart of credibility scores.
+
+## Implementation Plan
+
+### 1. Files to Generate
+
+1. **main.py**
+
+   * Full CrewAI implementation (Controller + Agents + Orchestration)
+   * OpenAI GPT API integration for summarization
+   * Real-time logging hooks for UI updates
+
+2. **tools/credibility\_scorer.py**
+
+   * Standalone Python function for scoring and reasoning.
+
+3. **ui.py**
+
+   * Streamlit or Gradio UI
+   * Displays live agent execution steps and final ranked results.
+
+4. **requirements.txt**
+
+   * Dependencies: `crewai`, `requests`, `duckduckgo-search`, `openai`, `streamlit` (or `gradio`)
+
+5. **README.md**
+
+   * Setup instructions
+   * Example usage & UI screenshots
+
+### 2. Workflow
+
+1. User enters a **research topic** in the UI.
+2. Controller Agent delegates to **Research Agent** → fetch URLs.
+3. Controller then triggers **Analysis Agent** → summarize content + credibility scoring.
+4. Controller aggregates top 3 credible sources + reasoning.
+5. UI updates step-by-step, then shows final ranked results with visual formatting.
+
+### 3. OpenAI GPT Integration
+
+* The Analysis Agent will use **OpenAI GPT API** for summarization:
+
+  ```python
+  from openai import OpenAI
+  client = OpenAI()
+
+  def summarize_text(content):
+      response = client.chat.completions.create(
+          model="gpt-4o",
+          messages=[{"role": "user", "content": f"Summarize this content: {content}"}]
+      )
+      return response.choices[0].message.content
+  ```
+
+## Example Output
+
+```
+TOP 3 Credible Sources for: "Impact of AI on Education"
+
+1. MIT AI in Education Report
+   URL: https://www.mit.edu/ai-education-report
+   Credibility Score: 3.0
+   Reason: University (.edu) domain with peer-reviewed research.
+   Summary: Explores AI-driven personalized learning and its benefits in adaptive education.
+
+2. UNESCO AI Policy Brief
+   URL: https://www.unesco.org/ai-education-policy
+   Credibility Score: 2.5
+   Reason: International organization (.org) with policy expertise.
+   Summary: Discusses ethical AI integration in global educational systems.
+
+3. Medium Blog on AI in Classrooms
+   URL: https://medium.com/ai-classrooms
+   Credibility Score: 0.5
+   Reason: User-generated platform, limited authority.
+   Summary: Opinion piece on AI tools in virtual classrooms.
+```
+
+## UI Preview
+
+* **Step-by-step updates**:
+
+  * ✅ Research Agent: 5 URLs found
+  * ✅ Analysis Agent: Summaries generated
+  * ✅ Credibility Scorer: Sources ranked
+* **Final View**:
+
+  * Interactive cards with titles, summaries, scores.
+  * Bar chart visualizing credibility scores.
+
+## Deployment on Replit
+
+You can deploy the entire project on **Replit** by:
+
+1. Uploading generated files.
+2. Installing dependencies from `requirements.txt`.
+3. Running `streamlit run ui.py` to launch the UI.
+
+## Bonus Features for Top 25%
+
+* Add **response time metrics per agent**.
+* Store **query history + previous rankings** in a JSON memory file.
+* Allow **user feedback** to adjust ranking dynamically.
+
+---
+
+### Next Steps
+
+1. Use this document as the **enhanced design blueprint**.
+2. Feed the detailed prompt from this document to **Replit AI** to auto-generate the project files.
+3. Plug in your **OpenAI API key** for GPT-based summarization.
+4. Test with a sample query and refine output formatting.
+
+---
+
+This version ensures **CrewAI is mandatory for orchestration**, integrates **OpenAI GPT for summaries**, and includes a **real-time interactive UI** for a polished, top-tier implementation.

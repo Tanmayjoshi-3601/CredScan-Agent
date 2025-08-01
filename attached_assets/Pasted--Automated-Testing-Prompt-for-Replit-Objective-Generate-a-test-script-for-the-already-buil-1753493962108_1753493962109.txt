@@ -1,0 +1,111 @@
+# Automated Testing Prompt for Replit
+
+## Objective
+
+Generate a **test script** for the already-built Academic Source Credibility Checker tool. The script should systematically evaluate the system’s functionality, accuracy, robustness, and performance. It will automate multiple test cases, measure execution time, and produce a final summary table.
+
+---
+
+## Instructions for Replit AI
+
+You are an expert Python developer. I already have a functioning **Academic Source Credibility Checker** tool. I now need you to create an **automated test script** called `test_agent_system.py`.
+
+### Test Script Requirements
+
+1. **Import the existing tool**
+
+   * Assume there is a function `run_query(query: str) -> dict` that executes the full pipeline and returns a JSON-like response with ranked results.
+
+2. **Define test cases**
+
+   * **Normal query:** `"Impact of AI on education"`
+   * **Known low credibility query:** `"Clickbait AI News"`
+   * **Empty query:** `""`
+   * **Niche query (no results):** `"Quantum AI in goat farming"`
+
+3. **For each test case**
+
+   * Measure **total execution time** using the `time` module.
+   * Print agent execution steps (Research → Analysis → Credibility Scoring → Output).
+   * Validate outputs:
+
+     * Normal queries should return at least 3 results.
+     * Credibility scores must follow expected rules (.edu > .com > blogspot).
+     * Summaries should not be empty.
+   * For niche queries with no results, check if the system gracefully outputs a fallback message.
+
+4. **Simulate API failure**
+
+   * Mock or temporarily disable the GPT summarizer to simulate failure.
+   * Verify that the system handles the failure and displays: **“Analysis Agent failed, please retry”**.
+
+5. **Generate a summary table**
+
+   * After all tests, print a formatted table:
+     \| Query | #Results | Top Domain | Credibility OK? | Time(s) | Passed? |
+   * Use `tabulate` (add it to `requirements.txt`) for clean output.
+
+6. **Assertions & Failures**
+
+   * If any test fails, print a **clear failure reason**.
+   * Exit with a final summary: **All tests passed!** or **Some tests failed.**
+
+7. **Optional JSON Logging**
+
+   * Save test outputs (query, response, latency) to a `test_results.json` file for later reference.
+
+---
+
+## Example Expected Output
+
+```
+Running automated tests...
+
+[Test] Normal query: Impact of AI on education
+  ✅ Research Agent found 5 URLs
+  ✅ Analysis Agent summarized content
+  ✅ Credibility scoring completed
+  Time taken: 7.2s
+
+[Test] Niche query: Quantum AI in goat farming
+  ✅ No credible sources found (as expected)
+  Time taken: 3.1s
+
+[Test] API Failure Simulation
+  ✅ Handled GPT timeout gracefully
+
+Summary:
+| Query                      | #Results | Top Domain   | Credibility OK? | Time(s) | Passed |
+|----------------------------|----------|--------------|-----------------|---------|--------|
+| Impact of AI on education  | 3        | mit.edu      | ✅              | 7.2     | ✅     |
+| Clickbait AI News          | 3        | stanford.edu | ✅              | 6.8     | ✅     |
+| Quantum AI in goat farming | 0        | -            | ✅              | 3.1     | ✅     |
+| API Failure Simulation     | 0        | -            | ✅              | 2.5     | ✅     |
+
+All tests passed!
+```
+
+---
+
+## Deliverables
+
+* A single file `test_agent_system.py` that:
+
+  * Imports `run_query()`
+  * Runs all test cases
+  * Logs execution steps and timing
+  * Validates correctness of outputs
+  * Prints a final **summary table**
+  * Optionally writes `test_results.json`
+
+* Update `requirements.txt` with `tabulate` for table formatting.
+
+* (Optional) Create a `README_Testing.md` explaining how to run tests:
+
+  ```bash
+  python test_agent_system.py
+  ```
+
+---
+
+Now generate this `test_agent_system.py` file using placeholders for `run_query()` (I will replace with the actual function later).
