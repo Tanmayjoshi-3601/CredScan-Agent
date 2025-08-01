@@ -1,0 +1,11 @@
+streamlit 
+openai 
+crewai 
+python-dotenv 
+trafilatura 
+ddgs 
+pandas 
+plotly 
+requests 
+crewai-tools 
+tabulate

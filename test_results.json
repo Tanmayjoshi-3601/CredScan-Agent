@@ -1,0 +1,472 @@
+{
+  "timestamp": "2025-08-01T15:23:56.707038",
+  "summary": {
+    "total_tests": 6,
+    "passed_tests": 5,
+    "success_rate": 83.3
+  },
+  "test_results": [
+    {
+      "query": "Impact of AI on education",
+      "num_results": 7,
+      "top_domain": "www.zhihu.com",
+      "credibility_ok": true,
+      "time": 8.9,
+      "passed": true,
+      "details": {
+        "success": true,
+        "query": "Impact of AI on education",
+        "results": [
+          {
+            "rank": 1,
+            "title": "425102812",
+            "url": "https://www.zhihu.com/question/425102812",
+            "summary": "The document titled \"425102812\" appears to be inaccessible due to a failure in fetching content from the provided URL. As a result, a summary cannot be generated without access to the main arguments, key findings, and relevance of the content. For an academic summary, access to the full text is necessary to identify and analyze these components. If you can provide the content in another format, I would be able to assist you further.",
+            "credibility_score": 1.1,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.1/3.0): Secure connection",
+            "content_available": true
+          },
+          {
+            "rank": 2,
+            "title": "544848483",
+            "url": "https://www.zhihu.com/question/544848483",
+            "summary": "It seems that the content you intended to provide is not accessible due to a failure in fetching it from the URL. As a result, I am unable to generate a summary. If you can provide the text or main points directly, I would be happy to help create a concise academic summary based on that information.",
+            "credibility_score": 1.1,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.1/3.0): Secure connection",
+            "content_available": true
+          },
+          {
+            "rank": 3,
+            "title": "323274455",
+            "url": "https://www.zhihu.com/question/323274455",
+            "summary": "The document titled \"323274455\" could not be accessed due to a failure in fetching content from the provided URL. As a result, no specific arguments, key findings, or relevance to academic research can be summarized. For a comprehensive summary, access to the full content is necessary. If available, please provide the text or main points directly for further assistance.",
+            "credibility_score": 1.1,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.1/3.0): Secure connection",
+            "content_available": true
+          },
+          {
+            "rank": 4,
+            "title": "27047110",
+            "url": "https://www.zhihu.com/question/27047110?sort=created",
+            "summary": "It appears that the content you are referring to is inaccessible due to a failure in fetching it from the provided URL. Without access to the specific content, I am unable to provide a summary of the main arguments, key findings, or its relevance to academic research. If you have access to the text or can provide more details, I would be happy to help you summarize it.",
+            "credibility_score": 1.1,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.1/3.0): Secure connection",
+            "content_available": true
+          },
+          {
+            "rank": 5,
+            "title": "639871082",
+            "url": "https://www.zhihu.com/question/639871082",
+            "summary": "Title: 639871082\n\nSummary: The content could not be retrieved from the provided URL, resulting in a lack of specific information to summarize. Without access to the actual document, it is impossible to identify the main arguments, key findings, or its relevance to academic research. To proceed, please ensure the URL is correct or provide the text directly for analysis.",
+            "credibility_score": 1.1,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.1/3.0): Secure connection",
+            "content_available": true
+          },
+          {
+            "rank": 6,
+            "title": "445488835",
+            "url": "https://www.zhihu.com/question/445488835?write",
+            "summary": "The document titled \"445488835\" lacks accessible content due to a failure in fetching data from the specified URL. Consequently, no main arguments, key findings, or relevance to academic research can be extracted or summarized from the given information. Without access to the actual content, it is impossible to provide an academic summary or assess its contributions to the field.",
+            "credibility_score": 1.1,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.1/3.0): Secure connection",
+            "content_available": true
+          },
+          {
+            "rank": 7,
+            "title": "438900616",
+            "url": "https://www.zhihu.com/question/438900616",
+            "summary": "The provided content appears to be a placeholder or error message indicating that the content could not be retrieved from a specified URL. As such, there are no main arguments, key findings, or relevance to academic research to summarize. It is important to ensure that URLs are correct and accessible when attempting to fetch content for academic purposes.",
+            "credibility_score": 1.1,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.1/3.0): Secure connection",
+            "content_available": true
+          }
+        ],
+        "timestamp": "2025-08-01T15:22:34.687793",
+        "status_updates": [
+          "[15:22:25] \ud83d\udd0d Research Agent: Searching for 'Impact of AI on education'...",
+          "[15:22:26] \u2705 Research Agent: Found 7 potential sources",
+          "[15:22:26] \ud83d\udcd6 Analysis Agent: Processing 7 sources for credibility...",
+          "[15:22:34] \ud83c\udfaf Controller Agent: Ranking 7 sources by credibility...",
+          "[15:22:34] \u2705 Controller Agent: Analysis complete! Top source: 1.1/3.0",
+          "[15:22:34] \ud83c\udf89 Academic source credibility check completed!",
+          "[15:22:34] \ud83d\ude80 Starting academic source credibility check..."
+        ]
+      }
+    },
+    {
+      "query": "Clickbait AI News",
+      "num_results": 7,
+      "top_domain": "www.psu.edu",
+      "credibility_ok": true,
+      "time": 20.3,
+      "passed": true,
+      "details": {
+        "success": true,
+        "query": "Clickbait AI News",
+        "results": [
+          {
+            "rank": 1,
+            "title": "Clickbait headlines might not lure readers as much, may confuse AI | Penn State University",
+            "url": "https://www.psu.edu/news/research/story/clickbait-headlines-might-not-lure-readers-much-may-confuse-ai",
+            "summary": "The article from Penn State University discusses research findings that challenge the effectiveness of clickbait headlines and their identification by artificial intelligence (AI). The study reveals that clickbait, which uses linguistic tricks to attract readers, often does not outperform traditional headlines and may even underperform. This finding is significant in the context of combating fake news on social media, where AI is being explored as a tool to identify and block clickbait. However, the research suggests that AI's ability to detect clickbait is limited and that solving the clickbait issue may not directly address the broader fake news problem. S. Shyam Sundar, a professor at Penn State, emphasizes that fake news and clickbait are more complex than previously thought, indicating that they may require different approaches for effective management. This research is relevant to academic discussions on media effects, AI in content moderation, and the complexities of digital misinformation.",
+            "credibility_score": 3.0,
+            "credibility_reason": "\ud83d\udfe2 High credibility (3.0/3.0): Tier 1: Educational institution, Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 2,
+            "title": "Clickbait Secrets Exposed! Humans and AI team up to improve clickbait detection | Penn State University",
+            "url": "https://www.psu.edu/news/research/story/clickbait-secrets-exposed-humans-and-ai-team-improve-clickbait-detection",
+            "summary": "The study titled \"Clickbait Secrets Exposed! Humans and AI team up to improve clickbait detection\" from Penn State University explores a collaborative approach between humans and artificial intelligence (AI) to enhance clickbait detection. Conducted by researchers at Penn State and Arizona State University, the study involved humans creating misleading headlines and machines generating artificial clickbaits. These were used to train an AI model, which demonstrated a 14.5% improvement in detecting clickbait compared to existing systems. Notably, the AI could distinguish between human-written and machine-generated clickbait. Presented at the 2019 IEEE/ACM International Conference on Advances in Social Networks Analysis (ASONAM), the research highlights the potential of human-AI collaboration in improving machine learning performance. The findings suggest broader implications for AI applications beyond clickbait detection, as noted by Dongwon Lee, the project's principal investigator. This research is relevant to academic discussions on enhancing AI capabilities and the integration of human input in machine learning processes.",
+            "credibility_score": 3.0,
+            "credibility_reason": "\ud83d\udfe2 High credibility (3.0/3.0): Tier 1: Educational institution, Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 3,
+            "title": "Deep learning and sentence embeddings for detection of clickbait news from online content | Scientific Reports",
+            "url": "https://www.nature.com/articles/s41598-025-97576-1",
+            "summary": "Title: Deep learning and sentence embeddings for detection of clickbait news from online content | Scientific Reports\n\nSummary:\nThe study investigates the application of deep learning techniques and sentence embeddings to identify clickbait news in online content. The main argument is that traditional methods of detecting clickbait, which often rely on manual or simplistic keyword-based approaches, are insufficient in the face of increasingly sophisticated clickbait strategies. The research leverages advanced deep learning models, particularly focusing on sentence embeddings, to improve the accuracy and efficiency of clickbait detection.\n\nKey findings include the demonstration that deep learning models, when trained with appropriate datasets, can effectively distinguish between clickbait and non-clickbait content. The study highlights the superiority of sentence embeddings over traditional word-based methods, as they capture contextual and semantic nuances that are crucial for accurate detection.\n\nThe relevance of this research to academic inquiry lies in its contribution to the fields of natural language processing and information retrieval. By providing a more robust methodology for clickbait detection, the study aids in the development",
+            "credibility_score": 3.0,
+            "credibility_reason": "\ud83d\udfe2 High credibility (3.0/3.0): Tier 1: Premier science journal, Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 4,
+            "title": "375784875 The Association Between Academic Clickbait And Impact From The Perspective Of Online Media News",
+            "url": "https://www.researchgate.net/publication/375784875_The_Association_Between_Academic_Clickbait_and_Impact_From_the_Perspective_of_Online_Media_News",
+            "summary": "Title: The Association Between Academic Clickbait And Impact From The Perspective Of Online Media News\n\nSummary:\n\nThe study investigates the relationship between the use of clickbait in academic articles and their subsequent impact, particularly in the context of online media news. The main argument posits that academic clickbait, characterized by sensationalized or exaggerated headlines, may influence the visibility and dissemination of research findings. Key findings suggest that articles employing clickbait strategies tend to receive higher engagement and media coverage, potentially enhancing their academic impact and reach. The research highlights the implications of this trend for scholarly communication, suggesting that while clickbait can increase exposure, it may also compromise the perceived credibility and integrity of academic work. This study is relevant to academic research as it addresses the evolving dynamics of information dissemination in the digital age and raises important considerations for researchers regarding the ethical and practical aspects of promoting their work.",
+            "credibility_score": 2.9,
+            "credibility_reason": "\ud83d\udfe2 High credibility (2.9/3.0): Tier 2: Academic network, Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 5,
+            "title": "You Wont Read This Life Changing Study About Clickbait Headlines",
+            "url": "https://www.fastcompany.com/90649160/you-wont-read-this-life-changing-study-about-clickbait-headlines",
+            "summary": "The article titled \"You Won't Read This Life Changing Study About Clickbait Headlines\" appears to address the phenomenon of clickbait headlines and their impact on reader engagement. Although the content was not retrievable, the title suggests a focus on the paradoxical nature of clickbait: while promising transformative insights, such headlines often fail to deliver substantive content, potentially leading to reader skepticism and reduced trust in media sources. The study likely examines the effectiveness of clickbait in capturing attention versus its long-term implications for credibility and information dissemination. This topic is relevant to academic research as it intersects with media studies, psychology, and communication, offering insights into how digital content strategies influence consumer behavior and the broader implications for information literacy in the digital age.",
+            "credibility_score": 1.4,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.4/3.0): Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 6,
+            "title": "Automatic Detection of Clickbait Headlines Using Semantic Analysis and Machine Learning Techniques",
+            "url": "https://www.mdpi.com/2076-3417/13/4/2456",
+            "summary": "Title: Automatic Detection of Clickbait Headlines Using Semantic Analysis and Machine Learning Techniques\n\n**Summary:**\n\nThe paper addresses the growing issue of clickbait headlines, which are designed to attract attention and entice clicks by misleading readers about the article's content. These headlines exploit the \"curiosity gap\" by either not fully explaining the article's content or discussing topics not covered in the article. The study distinguishes clickbait from fake news, noting that while both are misleading, fake news intentionally spreads false information.\n\nThe research focuses on developing automated methods to detect clickbait using semantic analysis and machine learning techniques. The main arguments highlight the necessity of distinguishing clickbait from genuine content to maintain the integrity of online information and improve user experience. Key findings suggest that semantic analysis combined with machine learning algorithms can effectively identify clickbait headlines, offering a promising solution to this pervasive issue.\n\nThe study's relevance to academic research lies in its contribution to the fields of natural language processing and information retrieval. By providing a framework for automatic clickbait",
+            "credibility_score": 1.1,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.1/3.0): Secure connection",
+            "content_available": true
+          },
+          {
+            "rank": 7,
+            "title": "AI vs. Human-Authored Headlines: Evaluating the Effectiveness, Trust, and Linguistic Features of ChatGPT-Generated Clickbait and Informative Headlines in Digital News",
+            "url": "https://www.mdpi.com/2078-2489/16/2/150",
+            "summary": "The article titled \"AI vs. Human-Authored Headlines: Evaluating the Effectiveness, Trust, and Linguistic Features of ChatGPT-Generated Clickbait and Informative Headlines in Digital News\" explores the impact of artificial intelligence (AI) on the media industry, particularly focusing on the generation of news headlines. With the rapid advancement of AI technologies, there is a growing debate about the role of AI in journalism and its influence on news creation and distribution. The introduction of tools like ChatGPT has heightened public awareness and concern regarding AI's ability to produce content that rivals human expertise, challenging professionals in the media sector.\n\nThe article highlights the polarized views on AI-generated news, ranging from skepticism about its reliability to cautious optimism about its potential. A significant area of academic research involves comparing AI-generated content with human-authored content, particularly in terms of quality, credibility, and reliability. This research is crucial as it informs the ongoing debate about the integration of AI in journalism and its implications for the future of",
+            "credibility_score": 1.1,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.1/3.0): Secure connection",
+            "content_available": true
+          }
+        ],
+        "timestamp": "2025-08-01T15:22:54.995451",
+        "status_updates": [
+          "[15:22:34] \ud83d\udd0d Research Agent: Searching for 'Clickbait AI News'...",
+          "[15:22:40] \u2705 Research Agent: Found 7 potential sources",
+          "[15:22:40] \ud83d\udcd6 Analysis Agent: Processing 7 sources for credibility...",
+          "[15:22:54] \ud83c\udfaf Controller Agent: Ranking 7 sources by credibility...",
+          "[15:22:54] \u2705 Controller Agent: Analysis complete! Top source: 3.0/3.0",
+          "[15:22:54] \ud83c\udf89 Academic source credibility check completed!",
+          "[15:22:54] \ud83d\ude80 Starting academic source credibility check..."
+        ]
+      }
+    },
+    {
+      "query": "Empty query",
+      "num_results": 7,
+      "top_domain": "-",
+      "credibility_ok": true,
+      "time": 17.5,
+      "passed": false,
+      "details": {
+        "success": true,
+        "query": "",
+        "results": [
+          {
+            "rank": 1,
+            "title": "Join 292 million academics and researchers",
+            "url": "https://www.academia.edu/",
+            "summary": "The content outlines the features and benefits of using Academia.edu, a platform designed for academics and researchers. The main arguments focus on the platform's ability to facilitate access to a vast repository of research papers, with over 55 million PDFs available for free download. Key features include the ability to track the impact of one's work through robust analytics, share research with a global audience, and discover new research across various topics. Academia.edu also offers a publishing service through its journals, promising fast and rigorous dissemination of research. For enhanced functionality, users can upgrade to Academia Premium, which provides advanced research discovery tools, including full-text and citation searches, PDF packages, and search alerts. The platform emphasizes networking opportunities by notifying users of mentions and citations, thereby helping them grow their academic influence. The relevance to academic research lies in its potential to streamline research processes, enhance visibility, and foster collaboration among scholars worldwide.",
+            "credibility_score": 3.0,
+            "credibility_reason": "\ud83d\udfe2 High credibility (3.0/3.0): Tier 1: Educational institution, Secure connection",
+            "content_available": true
+          },
+          {
+            "rank": 2,
+            "title": "Understanding the True Value of Academic Research",
+            "url": "https://uofuhealth.utah.edu/notes/2024/12/understanding-true-value-of-academic-research",
+            "summary": "The article \"Understanding the True Value of Academic Research\" from Voices of U of U Health highlights the integral role of research at the University of Utah Health as a defining feature of its academic health center with societal impact. The main argument is that research is essential for filling critical knowledge gaps in medical science, leading to new treatments and technologies that enhance public health, support jobs, drive innovation and entrepreneurship, and provide training for future scientists. The article emphasizes the importance of understanding what research entails and how it is funded to appreciate its true value.\n\nKey findings include the significant role of the Office of the Associate Vice President for Research, Health Sciences in overseeing research strategy and providing operational support, such as faculty recruitment, program development, and grant writing. The University of Utah received over three-quarters of a billion dollars in research grants last year, with funding primarily from federal sources, private industry, and nonprofit foundations and associations. Notably, two-thirds of the research funding comes from federal sources, particularly the Department of",
+            "credibility_score": 3.0,
+            "credibility_reason": "\ud83d\udfe2 High credibility (3.0/3.0): Tier 1: Educational institution, Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 3,
+            "title": "Basic Steps in the Research Process",
+            "url": "https://www.nhcc.edu/academics/library/doing-library-research/basic-steps-research-process",
+            "summary": "The article \"Basic Steps in the Research Process\" outlines a straightforward strategy for writing a research paper, emphasizing the importance of selecting an appropriate topic as the initial step. The main argument is that choosing the right topic is crucial for the success of a research assignment. Key considerations include adhering to assignment guidelines, selecting a topic of personal interest, ensuring the availability of manageable information, and striving for originality to engage both the writer and the reader. The relevance to academic research lies in its practical guidance for students and novice researchers on how to effectively initiate their research projects, potentially leading to more meaningful and well-constructed academic papers.",
+            "credibility_score": 3.0,
+            "credibility_reason": "\ud83d\udfe2 High credibility (3.0/3.0): Tier 1: Educational institution, Secure connection, Academic content path, DOI identifier present",
+            "content_available": true
+          },
+          {
+            "rank": 4,
+            "title": "Research - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Academic_research",
+            "summary": "The Wikipedia entry on \"Research\" provides an overview of research as a creative and systematic endeavor aimed at expanding the stock of knowledge. It emphasizes the importance of collecting, organizing, and analyzing evidence with a focus on minimizing biases and errors. Research can build upon previous work and often involves validating instruments, procedures, or experiments through replication. The entry distinguishes between basic and applied research, noting that the former is concerned with documentation, discovery, interpretation, and the development of methods and systems to advance human knowledge. Research approaches vary significantly across disciplines, influenced by differing epistemologies in the humanities and sciences. Various forms of research are identified, including scientific, humanities, artistic, economic, social, business, marketing, practitioner, life, and technological research. The study of research practices itself is termed meta-research. The entry also defines a researcher as someone who conducts research to uncover new information or achieve a new understanding. This content is relevant to academic research as it outlines the foundational principles and diverse methodologies that underpin research",
+            "credibility_score": 2.2,
+            "credibility_reason": "\ud83d\udfe1 Medium credibility (2.2/3.0): Tier 3: Non-profit organization, Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 5,
+            "title": "Definition Of Academic Research",
+            "url": "https://research.com/research/definition-of-academic-research",
+            "summary": "The content titled \"Definition Of Academic Research\" was not retrievable, so I cannot provide a specific summary. However, I can offer a general overview of what such a document might typically include:\n\nAn academic research definition often outlines the systematic investigation process aimed at contributing to the body of knowledge in a particular field. Key arguments in such a document might emphasize the importance of rigor, objectivity, and methodological soundness. It may also discuss various research methodologies, such as qualitative, quantitative, or mixed methods, and their appropriate applications.\n\nKey findings in a document defining academic research might include the identification of essential components of research, such as hypothesis formulation, literature review, data collection, analysis, and interpretation. It might also highlight the role of peer review and publication in validating and disseminating research findings.\n\nThe relevance to academic research lies in providing a foundational understanding of what constitutes scholarly inquiry, guiding researchers in designing and conducting studies that meet academic standards. This understanding is crucial for advancing knowledge, informing policy, and",
+            "credibility_score": 1.6,
+            "credibility_reason": "\ud83d\udfe1 Medium credibility (1.6/3.0): Secure connection, Academic content path, Academic subdomain",
+            "content_available": true
+          },
+          {
+            "rank": 6,
+            "title": "All Guides: Introduction to Academic Research: What is Academic Research?",
+            "url": "https://sheridancollege.libguides.com/academic-research",
+            "summary": "The document titled \"All Guides: Introduction to Academic Research: What is Academic Research?\" outlines the fundamental aspects of academic research, emphasizing its role in enhancing understanding, strengthening arguments, and minimizing bias. It highlights the importance of integrating diverse sources to achieve these goals. The guide underscores the educational purpose of research assignments, which are designed to cultivate essential research skills such as topic selection, keyword identification, efficient information retrieval, and source evaluation. These skills are portrayed as crucial not only for academic success but also for personal and professional development. The guide aims to equip students at Sheridan with the necessary tools and knowledge to excel in academic research. This content is relevant to academic research as it provides foundational insights into the research process and skills development, which are critical for conducting rigorous and unbiased investigations.",
+            "credibility_score": 1.4,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.4/3.0): Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 7,
+            "title": "10 Best Online Academic Research Tools and Resources | BestColleges",
+            "url": "https://www.bestcolleges.com/blog/best-online-resources-academic-research/",
+            "summary": "The article \"10 Best Online Academic Research Tools and Resources\" from BestColleges provides a guide to the most effective online tools and resources for conducting academic research. The main argument is that while finding credible scholarly articles can be challenging, certain online platforms can significantly simplify the process. The article highlights ten key resources, emphasizing their utility in accessing peer-reviewed and fact-checked academic materials.\n\nKey findings include the identification of Google Scholar and JSTOR as top resources. Google Scholar is noted for its ability to locate academic articles, theses, and abstracts, with a ranking system based on authorship, publication venue, and citation frequency, ensuring the reliability of search results. JSTOR is recognized for its comprehensive collection of journal articles, books, and primary sources, making it a valuable tool for accessing a wide array of academic content.\n\nThe relevance of this article to academic research lies in its provision of a curated list of tools that streamline the research process, enabling students and researchers to efficiently find and cite credible academic sources.",
+            "credibility_score": 1.4,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.4/3.0): Secure connection, Academic content path",
+            "content_available": true
+          }
+        ],
+        "timestamp": "2025-08-01T15:23:12.530964",
+        "status_updates": [
+          "[15:22:54] \ud83d\udd0d Research Agent: Searching for ''...",
+          "[15:22:55] \u2705 Research Agent: Found 7 potential sources",
+          "[15:22:55] \ud83d\udcd6 Analysis Agent: Processing 7 sources for credibility...",
+          "[15:23:12] \ud83c\udfaf Controller Agent: Ranking 7 sources by credibility...",
+          "[15:23:12] \u2705 Controller Agent: Analysis complete! Top source: 3.0/3.0",
+          "[15:23:12] \ud83c\udf89 Academic source credibility check completed!",
+          "[15:23:12] \ud83d\ude80 Starting academic source credibility check..."
+        ]
+      }
+    },
+    {
+      "query": "Quantum AI in goat farming",
+      "num_results": 7,
+      "top_domain": "onlinelibrary.wiley.com",
+      "credibility_ok": true,
+      "time": 27.1,
+      "passed": true,
+      "details": {
+        "success": true,
+        "query": "Quantum AI in goat farming",
+        "results": [
+          {
+            "rank": 1,
+            "title": "6660733",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1155/2020/6660733",
+            "summary": "Title: 6660733\n\nSummary: The content could not be retrieved from the specified URL, resulting in a failure to access the intended material. Consequently, no main arguments, key findings, or relevance to academic research can be discerned or summarized from the unavailable content. This situation highlights the challenges associated with digital content retrieval and the potential barriers to accessing information for academic purposes. It underscores the importance of ensuring stable and reliable access to online resources for research and the necessity of having alternative strategies for information gathering when digital access fails.",
+            "credibility_score": 3.0,
+            "credibility_reason": "\ud83d\udfe2 High credibility (3.0/3.0): Tier 2: Academic publisher, Secure connection, Academic content path, DOI identifier present, Academic subdomain",
+            "content_available": true
+          },
+          {
+            "rank": 2,
+            "title": "S2772375525001224",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2772375525001224",
+            "summary": "It seems that the content you are referring to is not accessible, as indicated by the error message \"Failed to fetch content from URL.\" Without access to the specific content of the document titled \"S2772375525001224,\" I am unable to provide a summary of its main arguments, key findings, or relevance to academic research. If you have access to the document's text or can provide more details, I would be happy to help summarize it.",
+            "credibility_score": 2.9,
+            "credibility_reason": "\ud83d\udfe2 High credibility (2.9/3.0): Tier 2: Scientific database, Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 3,
+            "title": "S0959652621019302",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0959652621019302",
+            "summary": "I'm unable to access external content or fetch data from URLs. However, if you provide the text or main points from the document, I can help you create a concise academic summary focusing on the main arguments, key findings, and relevance to academic research.",
+            "credibility_score": 2.9,
+            "credibility_reason": "\ud83d\udfe2 High credibility (2.9/3.0): Tier 2: Scientific database, Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 4,
+            "title": "Scientists train AI to detect pain\u2014in goats",
+            "url": "https://phys.org/news/2024-11-scientists-ai-pain-goats.html",
+            "summary": "The article discusses a study where scientists developed an AI model to detect pain in goats by analyzing their facial expressions. Conducted by Ludovica Chiavaccini and her team at the University of Florida's College of Veterinary Medicine, the research aims to improve pain assessment in non-verbal patients, including animals and potentially humans, such as children. The AI system, trained on data from 40 goats, demonstrated an accuracy of 62 to 80% in identifying pain. The study, published in Scientific Reports, highlights the potential of AI in enhancing animal welfare and productivity, as animals in pain tend to gain less weight and be less productive. The research is significant for both veterinary science and broader applications in non-verbal human patient care.",
+            "credibility_score": 1.9,
+            "credibility_reason": "\ud83d\udfe1 Medium credibility (1.9/3.0): Tier 3: Non-profit organization, Secure connection",
+            "content_available": true
+          },
+          {
+            "rank": 5,
+            "title": "0014121 Authors Book+(2023 09 14+10:25:02)",
+            "url": "https://intech-files.s3.amazonaws.com/a043Y00000vBvphQAC/0014121_Authors_Book+(2023-09-14+10:25:02).pdf",
+            "summary": "The document titled \"0014121 Authors Book+(2023 09 14+10:25:02)\" appears to lack accessible content, as indicated by the statement \"No content could be extracted from this URL.\" Consequently, it is not possible to provide a summary of the main arguments, key findings, or its relevance to academic research. Without the actual content, any analysis or discussion of its academic contribution is not feasible.",
+            "credibility_score": 1.3,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.3/3.0): Secure connection, Document format",
+            "content_available": true
+          },
+          {
+            "rank": 6,
+            "title": "Scientists trained AI to detect faces in pain, in goats",
+            "url": "https://www.sciencedaily.com/releases/2024/11/241107193106.htm",
+            "summary": "The study conducted by researchers at the University of Florida demonstrates the development of an artificial intelligence (AI) model capable of detecting pain in goats by analyzing their facial expressions. The primary objective of this research is to enhance pain recognition in animals, which could subsequently be applied to non-verbal human patients, such as children. The AI system was trained using video footage of goats in both pain and comfort, allowing it to learn to distinguish between the two states based solely on facial cues. The model's accuracy ranged from 62% to 80%, depending on the testing methods employed. This research holds significant implications for veterinary medicine and human healthcare, as it could lead to improved pain management and treatment strategies for non-verbal patients. The study highlights the potential of AI in advancing our understanding of pain perception across different species, thereby contributing to both animal welfare and human medical practices.",
+            "credibility_score": 1.1,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.1/3.0): Secure connection",
+            "content_available": true
+          },
+          {
+            "rank": 7,
+            "title": "Future Trends in Goat Farming_ Technology and Innovations - SlideServe",
+            "url": "https://www.slideserve.com/Homeopathic1/future-trends-in-goat-farming-technology-and-innovations",
+            "summary": "The article \"Future Trends in Goat Farming: Technology and Innovations\" discusses the evolving landscape of goat farming, emphasizing the role of technological advancements and innovative practices. Goat farming, historically significant for providing meat, milk, fiber, and companionship, is experiencing a transformation through the integration of technology. The article highlights precision livestock farming (PLF) as a key trend, which employs technologies like sensors, data analytics, and automated systems to enhance the monitoring and management of goats' health, behavior, and well-being. These innovations are expected to increase efficiency, sustainability, and profitability in the industry. The relevance of this research lies in its potential to guide future academic studies on agricultural technology adoption and its impact on traditional farming practices, offering insights into how technology can be leveraged to improve livestock management and agricultural productivity.",
+            "credibility_score": 1.1,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.1/3.0): Secure connection",
+            "content_available": true
+          }
+        ],
+        "timestamp": "2025-08-01T15:23:39.678216",
+        "status_updates": [
+          "[15:23:12] \ud83d\udd0d Research Agent: Searching for 'Quantum AI in goat farming'...",
+          "[15:23:13] \u2705 Research Agent: Found 7 potential sources",
+          "[15:23:13] \ud83d\udcd6 Analysis Agent: Processing 7 sources for credibility...",
+          "[15:23:39] \ud83c\udfaf Controller Agent: Ranking 7 sources by credibility...",
+          "[15:23:39] \u2705 Controller Agent: Analysis complete! Top source: 3.0/3.0",
+          "[15:23:39] \ud83c\udf89 Academic source credibility check completed!",
+          "[15:23:39] \ud83d\ude80 Starting academic source credibility check..."
+        ]
+      }
+    },
+    {
+      "query": "Credibility Scorer Direct Test",
+      "num_results": 4,
+      "top_domain": "Multiple domains tested",
+      "credibility_ok": true,
+      "time": 0.0,
+      "passed": true,
+      "details": {
+        "test_urls": [
+          [
+            "https://mit.edu/research/ai",
+            "High credibility (.edu)"
+          ],
+          [
+            "https://nature.com/articles/ai-study",
+            "High credibility (academic publisher)"
+          ],
+          [
+            "https://medium.com/ai-blog",
+            "Low credibility (blog platform)"
+          ],
+          [
+            "https://arxiv.org/abs/2023.12345",
+            "High credibility (academic preprint)"
+          ]
+        ]
+      }
+    },
+    {
+      "query": "machine learning algorithms",
+      "num_results": 7,
+      "top_domain": "www.nature.com",
+      "credibility_ok": true,
+      "time": 17.0,
+      "passed": true,
+      "details": {
+        "success": true,
+        "query": "machine learning algorithms",
+        "results": [
+          {
+            "rank": 1,
+            "title": "Machine learning-based academic performance prediction with explainability for enhanced decision-making in educational institutions | Scientific Reports",
+            "url": "https://www.nature.com/articles/s41598-025-12353-4",
+            "summary": "I'm unable to access external content, such as a specific URL, to provide a summary. However, I can guide you on how to create a concise academic summary based on a typical research article in the field of machine learning and educational performance prediction.\n\n1. **Main Arguments**: \n   - The article likely argues for the integration of machine learning techniques in predicting academic performance. \n   - It emphasizes the importance of explainability in these models to enhance decision-making processes in educational institutions.\n\n2. **Key Findings**:\n   - The study probably identifies specific machine learning models that effectively predict student performance.\n   - It may demonstrate how explainable AI (XAI) techniques can provide insights into the factors influencing academic outcomes.\n   - The research could present evidence that these models improve the accuracy and reliability of performance predictions compared to traditional methods.\n\n3. **Relevance to Academic Research**:\n   - This research contributes to the growing field of educational data mining by offering a framework for using machine learning in educational",
+            "credibility_score": 3.0,
+            "credibility_reason": "\ud83d\udfe2 High credibility (3.0/3.0): Tier 1: Premier science journal, Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 2,
+            "title": "Using Machine Learning-based Algorithms to Predict Academic Performance - A Systematic Literature Review | IEEE Conference Publication | IEEE Xplore",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10563566",
+            "summary": "Title: Using Machine Learning-based Algorithms to Predict Academic Performance - A Systematic Literature Review\n\nSummary:\n\nThis systematic literature review, published in an IEEE conference, explores the application of machine learning algorithms to predict academic performance. The main argument presented is that machine learning techniques can significantly enhance the accuracy and efficiency of predicting student outcomes compared to traditional methods. Key findings from the review indicate that various machine learning models, such as decision trees, support vector machines, and neural networks, have been successfully employed to forecast academic success, identify at-risk students, and tailor educational interventions.\n\nThe review highlights the importance of feature selection, data preprocessing, and the integration of diverse data sources, such as demographic information, academic records, and behavioral data, to improve prediction models. Furthermore, it underscores the potential of these predictive models to inform educational policy and personalized learning strategies.\n\nThe relevance of this research to the academic community lies in its comprehensive analysis of existing studies, identifying gaps in the literature, and suggesting directions for future research. It",
+            "credibility_score": 3.0,
+            "credibility_reason": "\ud83d\udfe2 High credibility (3.0/3.0): Tier 1: Professional engineering society, Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 3,
+            "title": "344717762 Machine Learning Algorithms  A Review",
+            "url": "https://www.researchgate.net/publication/344717762_Machine_Learning_Algorithms_-A_Review",
+            "summary": "The document titled \"344717762 Machine Learning Algorithms: A Review\" appears to be inaccessible due to a failure in fetching the content from the URL. Without access to the specific content of the review, I can provide a general framework for what such a review might typically include, based on common academic practices in the field of machine learning.\n\nA typical review of machine learning algorithms would likely cover the following aspects:\n\n1. **Main Arguments**: The review would discuss the evolution and significance of machine learning algorithms in various domains. It might argue for the importance of understanding different algorithms to apply them effectively in solving real-world problems.\n\n2. **Key Findings**: The document would likely summarize and compare various machine learning algorithms, such as supervised, unsupervised, and reinforcement learning techniques. It might highlight the strengths and weaknesses of popular algorithms like decision trees, neural networks, support vector machines, clustering methods, and deep learning models.\n\n3. **Relevance to Academic Research**: The review would emphasize the",
+            "credibility_score": 2.9,
+            "credibility_reason": "\ud83d\udfe2 High credibility (2.9/3.0): Tier 2: Academic network, Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 4,
+            "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions | SN Computer Science",
+            "url": "https://link.springer.com/article/10.1007/s42979-021-00592-x",
+            "summary": "The article titled \"Machine Learning: Algorithms, Real-World Applications and Research Directions\" in SN Computer Science likely provides an overview of machine learning (ML) by discussing its fundamental algorithms, practical applications, and future research opportunities. Although the specific content is unavailable, such articles typically cover:\n\n1. **Main Arguments**: The article probably argues for the transformative impact of machine learning across various sectors, emphasizing its role in automating tasks, enhancing decision-making processes, and driving innovation.\n\n2. **Key Findings**: It likely highlights the effectiveness of different ML algorithms, such as supervised and unsupervised learning techniques, neural networks, and deep learning models. The article might also discuss the challenges in implementing these algorithms, such as data quality, computational costs, and ethical considerations.\n\n3. **Relevance to Academic Research**: The article is relevant to academic research as it identifies current trends and gaps in ML research, suggesting potential areas for further investigation. It might also explore interdisciplinary applications of ML in fields",
+            "credibility_score": 2.9,
+            "credibility_reason": "\ud83d\udfe2 High credibility (2.9/3.0): Tier 2: Academic publisher, Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 5,
+            "title": "S0010482524014574",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0010482524014574",
+            "summary": "It seems that the content for the document titled \"S0010482524014574\" is not accessible, as there was a failure to fetch the content from the provided URL. Without the specific content, I am unable to provide a summary of the main arguments, key findings, or its relevance to academic research. If you have access to the document or can provide more details, I would be happy to help with a summary based on the available information.",
+            "credibility_score": 2.9,
+            "credibility_reason": "\ud83d\udfe2 High credibility (2.9/3.0): Tier 2: Scientific database, Secure connection, Academic content path",
+            "content_available": true
+          },
+          {
+            "rank": 6,
+            "title": "A Review Of Machine Learning Algorithms On Educational Data Ijertv14Is070088",
+            "url": "https://www.ijert.org/research/a-review-of-machine-learning-algorithms-on-educational-data-IJERTV14IS070088.pdf",
+            "summary": "Title: A Review Of Machine Learning Algorithms On Educational Data\n\nSummary:\n\nThe article titled \"A Review Of Machine Learning Algorithms On Educational Data\" appears to focus on the application of machine learning techniques within the educational sector. While the specific content of the article is not available, such reviews typically aim to evaluate various machine learning algorithms in terms of their effectiveness, efficiency, and applicability to educational data. The main arguments likely revolve around the potential of machine learning to enhance educational outcomes through personalized learning, predictive analytics, and automated assessment systems.\n\nKey findings in similar reviews often include the identification of the most suitable algorithms for specific educational tasks, such as classification, regression, or clustering, and the challenges associated with implementing these technologies in educational settings, such as data privacy concerns and the need for high-quality, labeled datasets.\n\nThe relevance to academic research is significant, as the integration of machine learning in education can lead to more data-driven decision-making processes, improved student engagement and performance, and the development of innovative educational tools.",
+            "credibility_score": 2.4,
+            "credibility_reason": "\ud83d\udfe1 Medium credibility (2.4/3.0): Tier 3: Non-profit organization, Secure connection, Academic content path, Document format",
+            "content_available": true
+          },
+          {
+            "rank": 7,
+            "title": "Application of Machine Learning Algorithms in Predicting Academic Performance of Students in Higher Education Institutes (HEIs): A Systematic Review and Bibliographic Analysis",
+            "url": "https://www.ajaronline.com/index.php/AJAR/article/view/869",
+            "summary": "This study systematically reviews and analyzes the application of machine learning algorithms in predicting the academic performance of students in higher education institutions (HEIs). By examining 60 articles published between 2018 and August 2023, the research identifies trends, key research areas, popular predictive features, and gaps in the existing literature. The study employs both quantitative and qualitative approaches, utilizing the PRISMA format for reporting.\n\nKey findings indicate that machine learning models, particularly Decision Trees, Random Forests, Artificial Neural Networks, Support Vector Machines, and Na\u00efve Bayes, have been instrumental in predicting student academic performance. Researchers predominantly use datasets comprising students' academic records, demographics, activities, and behavior to enhance prediction accuracy and model evaluation.\n\nThe study highlights the relevance of machine learning in educational research, emphasizing the potential of these algorithms to improve academic performance predictions. However, it also acknowledges limitations in conducting comprehensive reviews due to the diverse applications of machine learning in educational contexts. This research is significant for academics and practitioners seeking",
+            "credibility_score": 1.4,
+            "credibility_reason": "\ud83d\udd34 Low credibility (1.4/3.0): Secure connection, Academic content path",
+            "content_available": true
+          }
+        ],
+        "timestamp": "2025-08-01T15:23:56.704524",
+        "status_updates": [
+          "[15:23:39] \ud83d\udd0d Research Agent: Searching for 'machine learning algorithms'...",
+          "[15:23:39] \u2705 Research Agent: Found 7 potential sources",
+          "[15:23:39] \ud83d\udcd6 Analysis Agent: Processing 7 sources for credibility...",
+          "[15:23:56] \ud83c\udfaf Controller Agent: Ranking 7 sources by credibility...",
+          "[15:23:56] \u2705 Controller Agent: Analysis complete! Top source: 3.0/3.0",
+          "[15:23:56] \ud83c\udf89 Academic source credibility check completed!"
+        ]
+      }
+    }
+  ]
+}
